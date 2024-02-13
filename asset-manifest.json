@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sannskruti/static/css/main.0c575716.css",
+    "main.js": "/sannskruti/static/js/main.b267e368.js",
+    "static/media/connect.gif": "/sannskruti/static/media/connect.7d763f308a4afd472d7f.gif",
+    "static/media/Radiance.png": "/sannskruti/static/media/Radiance.cb5c7e3e27020221bf1a.png",
+    "static/media/Ecowell.png": "/sannskruti/static/media/Ecowell.7c366a788b9acbb2b483.png",
+    "static/media/bg.jpg": "/sannskruti/static/media/bg.5badd2b482bf247f6567.jpg",
+    "static/media/coding_dribbble.gif": "/sannskruti/static/media/coding_dribbble.a4ad838c5771c82cbbd6.gif",
+    "static/media/CapgeminiLogo.jpg": "/sannskruti/static/media/CapgeminiLogo.c750178ea38fe62a6b4f.jpg",
+    "static/media/beyond_addtoCart.png": "/sannskruti/static/media/beyond_addtoCart.626c8c0f3dfa5462755c.png",
+    "static/media/CanvasCalculator.png": "/sannskruti/static/media/CanvasCalculator.256d9292d79f062b5829.png",
+    "static/media/red-location-icon-map-png-4.png": "/sannskruti/static/media/red-location-icon-map-png-4.e81a46d750801de7af46.png",
+    "static/media/sannskrutiLogo.png": "/sannskruti/static/media/sannskrutiLogo.ba7ddfb435b1aff0e5d5.png",
+    "static/media/info.webp": "/sannskruti/static/media/info.4481e2408324a67ac2dc.webp",
+    "index.html": "/sannskruti/index.html",
+    "main.0c575716.css.map": "/sannskruti/static/css/main.0c575716.css.map",
+    "main.b267e368.js.map": "/sannskruti/static/js/main.b267e368.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c575716.css",
+    "static/js/main.b267e368.js"
+  ]
+}
