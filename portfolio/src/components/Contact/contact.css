@@ -1,0 +1,147 @@
+#contactPage {
+  min-height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.contactPageTitle {
+  font-size: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+
+.clientDesc {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.clientImgs {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.clientImg {
+  object-fit: cover;
+  width: 23%;
+  min-width: 9rem;
+  margin: auto;
+  padding: 0.25rem;
+  border-radius: 1rem;
+}
+#clients {
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.contactDesc {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+
+.capgemini {
+  display: flex;
+  flex-direction: row;
+}
+
+.submitBtn {
+  background: white;
+  border: none;
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 0.75rem 3.5rem;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+  border-radius: 40px;
+}
+.link:hover {
+  box-shadow: 0 0 1rem rgb(238, 237, 237);
+}
+
+.company {
+  width: 70vw;
+  height: auto;
+  background: rgb(50, 50, 50);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  border: solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.company:hover {
+  box-shadow: 0 0 1rem rgb(238, 237, 237);
+  background-color: rgba(14, 52, 124, 0.714);
+}
+.company-item-list {
+  margin: 1rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+  align-items: left;
+}
+.group-image-location {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: left;
+  padding: 1rem;
+}
+.location {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: -8px;
+  margin-left: -19px;
+}
+.position {
+  color: rgb(36, 200, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.testimonial {
+  width: 69.7vw;
+}
+.company-matter {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}

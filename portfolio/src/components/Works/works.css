@@ -1,0 +1,71 @@
+#works {
+  margin: 7rem;
+  min-height: calc(100vh-4rem);
+  /* width: 100vw;
+  max-width: 60rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+.worksTitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+  max-width: 45rem;
+}
+.worksDesc {
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 45rem;
+  margin-bottom: 2rem;
+}
+.worksImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 180vw;
+  max-width: 65rem; */
+}
+.workImg1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.workImg2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.worksImg {
+  object-fit: cover;
+  height: 20rem;
+  width: 30rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  border: solid white;
+  cursor: pointer;
+}
+.worksImg:hover{
+  box-shadow: 0 0 1rem rgb(238, 237, 237);
+  background-color: rgb(37, 59, 225);
+}
+
+
+
+.workBtn {
+  margin: 3rem 0;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  background: white;
+  font-size: 1rem;
+}
+@media screen and (max-width: 585px) {
+  .worksImg {
+    height: 50vw;
+  }
+}
